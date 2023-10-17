@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/DM+Sans">
+  
+</head>
+
+<body>
+  <main>
+    <div class="center">
+      <div class="balance container spacing">
+        <div class="balance-header">
+          <p class="fs" style="--weight: 400; --size: large">My balance</p>
+          <p class="fs" style="--weight: 700; --size: xx-large">$921.48</p>
+        </div>
+        <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" fill-rule="evenodd">
+            <circle fill="#382314" cx="48" cy="24" r="24" />
+            <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+          </g>
+        </svg>
+      </div>
+      <div class="spending container">
+        <div class="spending-header">
+          <p class="fs" style="--weight: 700; --size: xx-large">Spending - Last 7 Days</p>
+        </div>
+        <div class="chart">
+            <div class="barInfo" style="--height: 17.45">
+              <div class="tooltip">17.45</div>
+              <div class="bar" id="mon"></div>
+              <label for="mon">mon</label>
+            </div>
+            <div class="barInfo" style="--height: 34.91">
+              <div class="bar" id="tue"></div>
+              <label for="mon">tue</label>
+            </div>
+            <div class="barInfo" style="--height: 52.36">
+              <div class="bar" id="wed"></div>
+              <label for="mon">wed</label>
+            </div>
+            <div class="barInfo" style="--height: 31.07">
+              <div class="bar" id="thu"></div>
+              <label for="mon">thu</label>
+            </div>
+            <div class="barInfo" style="--height: 23.39">
+              <div class="bar" id="fri"></div>
+              <label for="mon">fri</label>
+            </div>
+            <div class="barInfo" style="--height: 43.28">
+              <div class="bar" id="sat"></div>
+              <label for="mon">sat</label>
+            </div>
+            <div class="barInfo" style="--height: 25.48">
+              <div class="bar" id="sun"></div>
+              <label for="mon">sun</label>
+            </div>
+            
+          <!-- <div class="bars"></div>
+          <div class="bars"></div>
+          <div class="bars"></div>
+          <div class="bars"></div>
+          <div class="bars"></div>
+          <div class="bars"></div> -->
+        </div>
+        
+
+
+        <!-- <div class="chart">
+          <div class="bar" style="--height: 17.45rem">
+            <span id="mon"></span>
+            <label for="mon">mon</label>
+          </div>
+        </div> -->
+      
+        <div class="spacing">
+          <div class="column">
+            <p class="fs" style="--weight: 400; --size: large; color: hsl(28, 10%, 53%)">Total this month</p>
+            <p class="fs" style="--weight: 700; --size: xx-large">$478.33</p>
+          </div>
+          <div class="column" style="margin-top:auto;">
+            <p class="fs" style="--weight: 700; --size: large; margin-left: auto;">+2.4%</p>
+            <p class="fs" style="--weight: 400; --size: large; color: hsl(28, 10%, 53%)">from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+<!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+   -->
